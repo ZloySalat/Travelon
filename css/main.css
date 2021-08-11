@@ -1,0 +1,223 @@
+/* Спецификация */
+body {
+	padding: 0;
+	margin: 0;
+	font-family: "Montserrat", sans-serif;
+	font-weight: 500;
+	font-size: 15px;
+	color: #304041;
+	letter-spacing: 0.05em;
+}
+
+* {
+	box-sizing: border-box;
+}
+
+ul,
+li {
+	display: block;
+	padding: 0;
+	margin: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	padding: 0;
+	margin: 0;
+	text-transform: uppercase;
+	font-weight: 800;
+}
+
+p {
+	margin: 0;
+}
+
+section {
+	padding-top: 145px;
+}
+
+a {
+	text-decoration: none;
+}
+
+.container {
+	width: 1140px;
+	margin: 0 auto;
+}
+
+.btn {
+	padding: 18px 0;
+	background: #ff7e36;
+	color: #ffffff;
+	border-radius: 119px;
+	font-size: 16px;
+	font-weight: 800;
+	display: block;
+	width: 247px;
+	transition: background 0.5s ease;
+	text-align: center;
+}
+
+.btn-ghost {
+	padding: 18px 0;
+	width: 332px;
+	font-size: 16px;
+	font-weight: 800;
+	display: block;
+	transition: all 0.5s ease;
+	border-radius: 119px;
+	color: #ff7e36;
+	border: 1px solid #ff7e36;
+	text-align: center;
+	margin: 0 auto;
+	margin-top: 90px;
+}
+
+.btn-ghost:hover {
+	color: #fff;
+	background: #ff7e36;
+	border: 1px solid #ff7e36;
+}
+
+.btn:hover {
+	background: #fd6611;
+	transition: background 0.5s ease;
+}
+
+.section-title {
+	font-size: 30px;
+	margin-bottom: 96px;
+	text-align: center;
+}
+
+/* Первая секция */
+
+.header {
+	background: linear-gradient(180deg, rgba(255, 255, 255, 0) 1.39%, rgba(36, 32, 84, 0.23) 44.44%),
+		url("../img/Budapest.png") no-repeat center top / cover;
+	text-align: center;
+	padding: 90px 0 80px;
+	color: #fff;
+}
+
+.offer {
+	margin-top: 201px;
+}
+
+.offer__title {
+	font-size: 60px;
+	letter-spacing: 0.145em;
+	margin: 24px 0;
+}
+.offer__text {
+	font-size: 20px;
+}
+.offer__btn {
+	margin: 0 auto;
+	margin-top: 24px;
+}
+
+.arrow-down {
+	background: url("../img/arrow-down.svg");
+	width: 18px;
+	height: 27px;
+	display: block;
+	margin: 217px auto 0;
+	opacity: 0.5;
+	transition: opacity 0.5s ease;
+}
+
+.arrow-down:hover {
+	opacity: 1;
+	transition: opacity 0.5s ease;
+}
+
+/* Доступные маршруты */
+
+.route {
+	padding: 112px 0 112px 73px;
+	border-radius: 0 5px 5px 0;
+	overflow: hidden;
+	height: 760px;
+	background: #e2f8ff url("../img/Center.png") no-repeat right top / 50%;
+}
+
+.route__content {
+	width: 420px;
+}
+
+.route__content p:not(:last-of-type) {
+	margin-bottom: 30px;
+}
+
+.route__subtitle {
+	margin-bottom: 20px;
+}
+.route__title {
+	margin-bottom: 40px;
+}
+
+.route__text {
+	line-height: 1.52em;
+}
+
+.arrow-next {
+	display: block;
+	transition: opacity 0.5s ease;
+	margin-top: 48px;
+	padding-bottom: 113px;
+	opacity: 0.5;
+	width: 68px;
+	height: 17px;
+}
+
+.arrow-next:hover {
+	opacity: 1;
+	transition: opacity 0.5s ease;
+}
+
+/* Возможности */
+.section-title {
+	margin-bottom: 93px;
+}
+
+.opportunity__content {
+	background: #fff url("../img/Maps.png") no-repeat right top / 50%;
+	padding: 157px 0 163px;
+}
+
+.opportunity-list__item {
+	width: 407px;
+	position: relative;
+	padding-top: 22px;
+}
+
+.opportunity-list__item:not(:last-child) {
+	margin-bottom: 61px;
+}
+
+.opportunity-list__item:before {
+	display: block;
+	width: 65px;
+	height: 7px;
+	background: #4eb1b6;
+	border-radius: 23px;
+	position: absolute;
+	top: 0;
+	content: "";
+}
+
+/* Футер */
+
+.footer {
+	margin: 147px 0 165px;
+	font-size: 14px;
+	color: #5c7677;
+}
+.footer-left {
+	margin-right: 60px;
+}
